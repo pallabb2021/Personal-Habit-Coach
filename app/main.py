@@ -344,7 +344,7 @@ class OrchestratorAgent:
 # ---------------------------
 # FastAPI app & endpoints
 # ---------------------------
-app = FastAPI(title="Multi-Agent Personal Habit Coach (Sequential)")
+app = FastAPI(title="Multi-Agent Personal Habit Coach")
 
 app.add_middleware(
     CORSMiddleware,
