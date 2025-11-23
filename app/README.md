@@ -70,6 +70,7 @@ MemoryAgent → HabitAgent → NeuroscienceAgent → EvaluatorAgent → MemoryAg
 Response back to user
 ```
 
+![Architecture Diagram](Arccchitecture.jpg)
 ---
 
 ## 🤖 Agent Pipeline
