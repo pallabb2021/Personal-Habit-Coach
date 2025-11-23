@@ -28,9 +28,6 @@ try:
 except Exception:
     USE_GEMINI = False
 
-# Path for uploaded file the user provided earlier (developer note: convert to URL as needed)
-# The above path was provided in your session. If you want to expose it via a URL,
-# your deployment should map it to a URL (example: /static/uploads/...). This constant is for reference.
 
 # ---------------------------
 # Database (SQLite) setup
@@ -440,9 +437,6 @@ def message(req: MessageRequest):
     conn.close()
     return result
 
-# @app.get("/health", summary="health")
-# def health():
-#     return {"status": "ok", "use_gemini": USE_GEMINI, "uploaded_file_path": UPLOADED_FILE_PATH}
 
 # ---------------------------
 # Quick run
